@@ -8,7 +8,7 @@ setup(
     version='0.0.1',
     author="Anshuman Rohella",
     author_email="rohella.anshuman@gmail.com",
-    descriptoion='A yaml config mapper to create static config classes.',
+    description='A yaml config mapper to create static config classes.',
     url="https://github.com/AnshumanRohella/pigconf",
     classifiers=[
         "Programming Language :: Python :: 3.6",
@@ -24,6 +24,7 @@ setup(
     extras_require={
         "dev": [
             "pytest>=6.2.2",
+            "check-manifest>=0.46"
         ],
     },
 )
