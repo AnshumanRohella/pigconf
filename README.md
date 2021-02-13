@@ -5,6 +5,14 @@
 Pigconf is a simple config mapper that maps yaml style configurations to configuration classes. It allows strict mapping
 of yaml fields to class attributes based on specified keys.
 
+## Installation 
+
+Run the followint to install:
+
+```bash
+pip install pigconf
+```
+
 ## Quickstart Example
 
 student_conf.yml
@@ -84,3 +92,10 @@ KeyError: 'Could not find key: wrong_key in config file.'
 
 ```
 
+## Contribute
+
+To install pigconf, along with the tools you need to develop and run tests, run the following in your virtualenv.
+
+```bash
+pip install -e .[dev]
+```
